@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Herr+Von+Muellerhoff&family=Indie+Flower&family=Jost:wght@300;500;700&family=Leckerli+One&family=Montaga&family=Niconne&family=Open+Sans:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Roboto:ital,wght@0,100;0,900;1,100;1,900&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 'Poppins',sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 10, 110);
+}
+.container{
+    width: 100%;
+    max-width: 410px;
+    background: white;
+    border-radius: 8px;
+    padding: 15px 25px;
+    overflow: hidden;
+    box-shadow: #fff 0px 8px 16px -8px;
+}
+button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav button{
+    width: calc(100% / 2 - 5px);
+    font-size: 1.2rem;
+    text-align: center;
+    height: 45px;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #ccc;
+    opacity: 0.5;
+}
+
+nav  button.active{
+    border-bottom: 2px solid #0283d8;
+    font-weight: 700;
+    color: #0283d8;
+    opacity: 1;
+}
+
+::-webkit-scrollbar{
+    display: none;
+
+}
